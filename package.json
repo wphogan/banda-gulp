@@ -1,7 +1,7 @@
 {
-  "name": "DAC_Gulp",
+  "name": "BillAndAlex_Gulp",
   "version": "1.0.0",
-  "description": "DAC gulp file configuration",
+  "description": "BillAndAlex gulp file configuration",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

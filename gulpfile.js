@@ -5,7 +5,7 @@ Setup instuctions:
 */
 
 //theme, sass & css directories
-var theme_dir   = '../themes/custom_template',
+var theme_dir   = '../themes/banda-theme',
     sass_dir    = theme_dir + '/sass/sass/',
     css_dir     = theme_dir + '/sass/stylesheets';
 
@@ -19,7 +19,7 @@ var plugins  = require('gulp-load-plugins')();
 gulp.task('default', ['watch']);
 
 //error handling
-var onError = function (err) {  
+var onError = function (err) {   
   console.log(err.toString())
   this.emit("error", new Error("Something happened: Error message!"))
   this.emit('end')
