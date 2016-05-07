@@ -5,9 +5,9 @@
 
 1. From the terminal, in the 'wp-content' folder, run `git clone https://github.com/wphogan/banda-gulp`.
 
-2. CD into the new 'wp-gulp' directory and run `npm install`.
+2. CD into the new 'banda-gulp' directory and run `npm install`.
 
-3. From 'wp-gulp', run `gulp`.
+3. From 'banda-gulp', run `gulp`.
 
 4. The `gulp` command is configured with LiveReload. It automatically injects CSS edits into the browser. Add and activate LiveReload to [Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/livereload/).
 
