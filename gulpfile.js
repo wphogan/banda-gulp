@@ -8,6 +8,7 @@ Setup instuctions:
 var theme_dir   = '../themes/banda-theme',
     sass_dir    = theme_dir + '/sass/sass/',
     css_dir     = theme_dir + '/sass/stylesheets';
+    js_dir      = theme_dir + '/js/';
 
 // Include gulp
 var gulp     = require('gulp');
@@ -114,7 +115,8 @@ gulp.task('jsp', ['js'], function() {
 //
 gulp.task('watch', ['styles', 'images'], function() {
     plugins.livereload.listen()
-    gulp.watch(sass_dir + "*.scss", ['styles'])
+    gulp.watch(sass_dir + "**", ['styles'])
+    gulp.watch(js_dir + "*.js", ['js'])
     // When there is a change, log a message in the console
     .on('change', function(event) {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
