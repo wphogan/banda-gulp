@@ -11,4 +11,4 @@
 
 4. The `gulp` command is configured with LiveReload. It automatically injects CSS edits into the browser. Add and activate LiveReload to [Chrome](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/livereload/).
 
- Running `gulp` will watch changes made to files in the 'sass' folder and automatically optimize images added to the 'img' folder. Sass files are compiled, auto-prefixed, and minified into a single CSS file. A source map is added to the CSS file. Errors in Sass code will produce a desktop alert.
+ Running `gulp` will watch changes made to files in the 'sass' folder and automatically optimize images added to the 'img' folder. Sass files are compiled, auto-prefixed, and minified into a single CSS file. A source map is added to the CSS file. Errors in Sass code will produce a desktop alert
